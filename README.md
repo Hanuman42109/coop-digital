@@ -1,32 +1,34 @@
-# React + TypeScript + Vite
+# Coop Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Marketing site for Coop Digital, a Greater Philadelphia marketing partner.
 
-Currently, two official plugins are available:
+**Live site:** https://coop-digital.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+Vite + React + TypeScript, routed with React Router, styled with Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run locally
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Then open http://localhost:5173.
+
+Other scripts:
+
+```bash
+npm run build    # type-check and build for production into dist/
+npm run preview  # serve the production build locally
+npm run lint     # run oxlint
+```
+
+## Images
+
+Real photos live in `public/images/` and are referenced by exact filename
+(`hero-street.jpg`, `founder-brittany.jpg`, `services-hats.jpg`,
+`contact-portrait.jpg`, `coopdigital-logo-final.jpg`). If one of these files
+is missing, the site falls back to a labeled placeholder block instead of a
+broken image.
