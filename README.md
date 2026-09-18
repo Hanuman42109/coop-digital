@@ -29,6 +29,6 @@ npm run lint     # run oxlint
 
 Real photos live in `public/images/` and are referenced by exact filename
 (`hero-street.jpg`, `founder-brittany.jpg`, `services-hats.jpg`,
-`contact-portrait.jpg`, `coopdigital-logo-final.jpg`). If one of these files
-is missing, the site falls back to a labeled placeholder block instead of a
-broken image.
+`contact-portrait.jpg`, `coopdigital-logo-final.jpg`, `hood.jpg`). If one of
+these files is missing, the site falls back to a labeled placeholder block
+instead of a broken image.
