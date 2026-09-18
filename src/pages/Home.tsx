@@ -10,7 +10,7 @@ export default function Home() {
           src="/images/hero-street.jpg"
           alt="A lively street in Fairmount, Philadelphia"
           label="Hero photo"
-          className="h-[420px] w-full object-cover md:h-[520px]"
+          className="h-105 w-full object-cover md:h-130"
         />
         <div className="absolute inset-0 bg-brand-purple/70" />
       </section>

@@ -60,7 +60,7 @@ export default function About() {
             src="/images/founder-brittany.jpg"
             alt="Brittany Cooper, founder of Coop Digital"
             label="Founder photo"
-            className="aspect-[4/5] w-full rounded-2xl object-cover"
+            className="aspect-4/5 w-full rounded-2xl object-cover"
           />
           <figcaption className="mt-2 text-sm text-brand-purple/70">
             Brittany Cooper, Founder

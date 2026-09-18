@@ -40,7 +40,7 @@ export default function Nav() {
           as={NavLink}
           to="/contact"
           variant="solid"
-          className="hidden !bg-brand-orange text-brand-purple hover:!bg-white md:inline-flex"
+          className="hidden bg-brand-orange! text-brand-purple hover:bg-white! md:inline-flex"
         >
           Book a Free Consultation
         </Button>
@@ -80,7 +80,7 @@ export default function Nav() {
             as={NavLink}
             to="/contact"
             onClick={() => setOpen(false)}
-            className="!bg-brand-orange text-brand-purple"
+            className="bg-brand-orange! text-brand-purple"
           >
             Book a Free Consultation
           </Button>

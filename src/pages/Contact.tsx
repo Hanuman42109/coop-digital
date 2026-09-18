@@ -100,7 +100,7 @@ export default function Contact() {
           src="/images/contact-portrait.jpg"
           alt="Coop Digital team member wearing a branded trucker hat"
           label="Contact photo"
-          className="aspect-[4/5] w-full rounded-2xl object-cover"
+          className="aspect-4/5 w-full rounded-2xl object-cover"
         />
       </div>
     </div>
